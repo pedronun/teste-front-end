@@ -19,4 +19,4 @@ yarn install
 yarn start
 ```
 
-## Repositório público no Github e no [Netlify](https://bellaonojie.netlify.app/) para melhor visualização
+## Repositório público no Github e no [Netlify](https://ninjasom.netlify.app/) para melhor visualização
