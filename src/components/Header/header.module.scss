@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+  height: 80px;
+
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.content {
+  width: 1050px;
+  height: 110px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    cursor: pointer;
+  }
+}
+
+.inputBlock {
+  position: relative;
+
+  svg {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+    transform: translateY(-50%);
+
+    cursor: pointer;
+  }
+}
+
+.input {
+  width: 340px;
+  height: 40px;
+
+  border-radius: 12px;
+  border: 1px solid var(--blue-850);
+
+  opacity: 0.4;
+
+  &::placeholder {
+    color: var(--blue-850);
+    opacity: 0.4;
+
+    font-size: 11px;
+    text-transform: uppercase;
+
+    padding: 10px;
+  }
+}
+
+.whatsappBlock {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+
+  svg {
+    margin-right: 10px;
+  }
+
+  span {
+    font-weight: 700;
+    font-size: 10px;
+
+    line-height: 12px;
+  }
+}
+
+.loginBlock {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+
+  svg {
+    margin-right: 10px;
+  }
+
+  div + svg {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    > strong,
+    span {
+      text-transform: uppercase;
+      color: var(--blue-850);
+    }
+
+    strong {
+      font-size: 10px;
+    }
+
+    span {
+      font-size: 7px;
+    }
+  }
+}
+
+.cartBlock {
+  height: 104px;
+  width: 77px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: var(--blue-850);
+
+  svg {
+    margin-bottom: 10px;
+  }
+
+  strong,
+  span {
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  strong {
+    font-size: 7px;
+    line-height: 8px;
+
+    margin-bottom: 10px;
+  }
+
+  span {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

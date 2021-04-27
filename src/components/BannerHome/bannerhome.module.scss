@@ -1,0 +1,72 @@
+.container {
+  background: url("../../assets/bannerHome.png") no-repeat center top;
+  background-size: 100%;
+}
+
+.content {
+  width: 1050px;
+  height: 530px;
+
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+
+  span,
+  strong {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    & + span {
+      font-size: 46px;
+      font-weight: 300;
+      line-height: 61px;
+    }
+
+    width: 415px;
+  }
+
+  strong {
+    font-weight: 900;
+  }
+
+  span:first-child {
+    font-weight: 300;
+    line-height: 36px;
+
+    text-align: center;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 415px;
+
+    cursor: pointer;
+
+    p {
+      margin-top: 50px;
+      padding-bottom: 15px;
+
+      width: 70px;
+      text-align: center;
+
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 13px;
+      line-height: 16px;
+
+      border-bottom: 1px solid #fff;
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+}
